@@ -21,7 +21,7 @@
             @Html.LabelFor(model => model.MaSP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.MaSP, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.MaSP, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.MaSP, "Mã sản phẩm", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -29,7 +29,7 @@
             @Html.LabelFor(model => model.TenSP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.TenSP, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.TenSP, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.TenSP, "Tên sản phẩm", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -37,7 +37,7 @@
             @Html.LabelFor(model => model.Loai_id, "Loai_id", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("Loai_id", null, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.Loai_id, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.Loai_id, "Loại sản phẩm", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -45,7 +45,7 @@
             @Html.LabelFor(model => model.GiaBan, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.GiaBan, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.GiaBan, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.GiaBan, "Gía bán", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -53,7 +53,7 @@
             @Html.LabelFor(model => model.GiaGoc, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.GiaGoc, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.GiaGoc, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.GiaGoc, "Gía Gốc", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -61,7 +61,7 @@
             @Html.LabelFor(model => model.GiaGop, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.GiaGop, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.GiaGop, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.GiaGop, "Gía góp", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -69,7 +69,7 @@
             @Html.LabelFor(model => model.SoLuongTon, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.SoLuongTon, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.SoLuongTon, "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(model => model.SoLuongTon, "Số Lượng Tồn", new { @class = "text-danger" })
             </div>
         </div>
 

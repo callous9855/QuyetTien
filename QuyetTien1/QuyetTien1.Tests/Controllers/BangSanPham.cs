@@ -10,7 +10,7 @@ using QuyetTien1.Controllers;
 namespace QuyetTien1.Tests.Controllers
 {
     [TestClass]
-    public class HomeControllerTest
+    public class BangSanPham
     {
         [TestMethod]
         public void Index()
@@ -23,6 +23,7 @@ namespace QuyetTien1.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
+            
         }
 
         [TestMethod]
